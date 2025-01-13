@@ -9,12 +9,24 @@
     <title>Ki nyer ma?</title>
 </head>
 <body>
-    <header>Találd ki az ország zászlóját!</header>
+    <header>
+        <h1>Találd ki az ország zászlóját!</h1>
+        <div class="clock">
+            <input type="number" name="" id="" disabled>
+            <input type="number" name="" id="" disabled>
+        </div>
+    </header>
     <main>
         <div class="container">
             <section>
-                <input type="button" value="Kezdés">
-                <input type="text" name="" id="country" placeholder="Kitalálandó ország neve.">
+                <div class="control">
+                    <input type="button" value="Kezdés">
+                    <input type="text" name="" id="country" placeholder="Kitalálandó ország neve.">
+                </div>
+                <div class="scores">
+                    <p>Helyes válaszok: <span id="correct"></span></p>
+                    <p>Helytelen válaszok: <span id="failed"></span></p>
+                </div>
             </section>
             <div class="flags">
 
